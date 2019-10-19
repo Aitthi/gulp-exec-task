@@ -1,7 +1,22 @@
-# gulp-task-helpers
-gulp exec bin multiprocessing
+# Gulp task helpers
+Gulp exec bin multiprocessing
 
-# Example
+## Installation
+
+This is a [Node.js](https://nodejs.org/en/) module available through the
+[npm registry](https://www.npmjs.com/).
+
+Before installing, [download and install Node.js](https://nodejs.org/en/download/).
+
+Installation is done using the
+[`npm install` command](https://docs.npmjs.com/getting-started/installing-npm-packages-locally):
+
+```bash
+$ npm install -D gulp-exec-task
+```
+
+## Examples
+
 ```
 import { parallel, series, task } from 'gulp';
 import { execTask } from 'gulp-exec-task';
@@ -21,4 +36,5 @@ task('serve:site', done => {
 task('start:dev', series(
 	parallel('serve:site')
 ));
+
 ```

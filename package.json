@@ -10,6 +10,14 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aitthi/gulp-task-helpers.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Aitthi/gulp-task-helpers/issues"
+  },
+  "homepage": "https://github.com/Aitthi/gulp-task-helpers#readme",
   "devDependencies": {
     "@types/fs-extra": "^8.0.1",
     "@types/gulp": "^4.0.6",
