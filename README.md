@@ -1,4 +1,4 @@
-# Gulp task helpers
+# Gulp exec task
 Gulp exec bin multiprocessing
 
 ## Installation
